@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Dataset lớn (không upload lên GitHub)
+data/raw/
+data/*.csv
+data/*.pcap
+data/*.parquet
+*.zip
+*.tar.gz
+*.gz
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Model files lớn
+*.h5
+*.pkl
+*.joblib
+models/
+
+# Environment
+.env
+*.env
