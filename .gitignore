@@ -18,9 +18,10 @@ build/
 
 # Dataset lớn (không upload lên GitHub)
 data/raw/
-data/*.csv
-data/*.pcap
-data/*.parquet
+data/processed/
+*.csv
+*.parquet
+*.pcap
 *.zip
 *.tar.gz
 *.gz
