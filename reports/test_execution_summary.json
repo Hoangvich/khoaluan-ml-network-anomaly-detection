@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-09-29 10:53:10",
+  "timestamp": "2026-09-29 12:53:47",
   "test_size": 23610,
   "latency": {
     "XGBoost": {
-      "batch_1000_ms": 2.438195003196597,
-      "single_flow_ms": 1.9805639993865043,
-      "throughput_fps": 410139.46738835465,
+      "batch_1000_ms": 2.3806550016161054,
+      "single_flow_ms": 1.9655320001766086,
+      "throughput_fps": 420052.4642676704,
       "pass": true
     },
     "MLP": {
-      "batch_1000_ms": 2.1759250026661903,
-      "single_flow_ms": 0.9648890001699328,
-      "throughput_fps": 459574.66308567004,
+      "batch_1000_ms": 2.0163600041996688,
+      "single_flow_ms": 0.9707139991223812,
+      "throughput_fps": 495943.1837158061,
       "pass": true
     }
   },
